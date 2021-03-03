@@ -1,15 +1,24 @@
-git init  			initialize
+git init                        initialize
 
-git status  			show uncommited changes
+git status                      show uncommited changes
 
 git add filename(directory)  	add files
 
-git commit -m "commit" 		make commit
+git commit -m "commit"          make commit
 
-git commit --amend  		update commits
+git commit --amend              update commits
 
-git log  			show all commits
+git log                         show all commits
+
+git reset                       reset all uncommited changes
+
+git reset --hard                undo changes        
+
+git
+
+
+
+
+
 
 touch .gitignore 		create gitignore
-
-git reset 			reset all uncommited changes
