@@ -1,23 +1,26 @@
 git init                        initialize
 
-git status                      show uncommited changes
-
 git add filename(directory)  	add files
-
+git status                      show uncommited changes
 git commit -m "commit"          make commit
-
 git commit --amend              update commits
-
 git log                         show all commits
 
-git reset                       reset all uncommited changes
+git reset [HEAD] (--mixed)      reset all uncommited changes
+git reset [HEAD] --hard         undo changes        
+git reset HEAD~n --soft         uncommit n-commits changes
 
-git reset --hard                undo changes        
+git remote -v                   show connected repositories
+git remote add origin <repo>    add new repo to git 
 
-git
+git push <repo> <branch>        push changes to remote repo
+git pull <repo> <branch>        pull changer from remote repo
 
 
-
+git branch                      show local branches
+git branch <branch-name>        create branch with name <branch-name>
+git checkout <name>             go to branch <name> 
+git checkout -b <name>          create branch and checkout
 
 
 
